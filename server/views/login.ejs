@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/management_system.css">
+  <link rel="stylesheet" href="/css/public.css">
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+  <div class="login-wrapper">
+    <div class="infoBox">
+      <div class="title">登录</div>
+      <div class="login">
+        <input id="userName" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" type="text" placeholder="请输入用户名"/><br>
+        <input id="passWord" maxlength="16" type="password" placeholder="请输入密码"/><br>
+        <input id="yzCode" maxlength="4" type="text" placeholder="验证码"/><span class="yzCode">jgmk</span>
+        <p class="error loginError">error</p>
+        <div class="btn login_btn">登录</div>
+        <p>立即&ensp;<span class="goRegister">注册</span></p>
+      </div>
+      <div class="login register" style="display: none">
+        <input id="e_name" maxlength="10" type="text" placeholder="输入真实姓名"/><br>
+        <input id="mobile" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" type="text" type="text" placeholder="手机号码"/><br>
+        <input id="password" maxlength="16" type="password" placeholder="请设置密码"/><br>
+        <select id="company">
+          <option value="0">所属分公司</option>
+          <option value="1">成都</option>
+          <option value="2">北京</option>
+          <option value="3">上海</option>
+          <option value="4">南京</option>
+        </select>
+        <p class="error2 registerError">error</p>
+        <div class="btn register_btn">注册</div>
+        <p>已有账号&ensp;<span class="goLogin">登录</span></p>
+      </div>
+    </div>
+    <canvas id="timeClick">
+      你的浏览器暂不支持canvas，请更新浏览器再试。
+    </canvas>
+  </div>
+  <script src="/js/public.js" charset="utf-8"></script>
+</body>
+</html>

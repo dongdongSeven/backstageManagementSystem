@@ -1,0 +1,91 @@
+@charset "UTF-8";
+.M-box2-wrapper{
+  position: relative;
+  left: 50%;
+  width:100%;
+  height: 70px;
+  margin:70px 0;
+}
+.M-box2{
+  float: left;
+  transform:translateX(-50%);
+  -ms-transform:translateX(-50%);     /* IE 9 */
+  -moz-transform:translateX(-50%);    /* Firefox */
+  -webkit-transform:translateX(-50%); /* Safari 和 Chrome */
+  -o-transform:translateX(-50%);  /* Opera */
+}
+.demo-image{
+    width: 100%;
+}
+.M-box,.M-box1,.M-box2,.M-box3,.M-box4{
+	position: relative;
+    text-align: center;
+  	zoom: 1;
+}
+.M-box:before,.M-box:after,.M-box1:before,.M-box1:after ,.M-box2:before,.M-box2:after ,.M-box3:before,.M-box3:after,.M-box4:before,.M-box4:after{
+    content:"";
+    display:table;
+}
+.M-box:after,.M-box1:after,.M-box2:after,.M-box3:after,.M-box4:after{
+	clear:both;
+	overflow:hidden;
+}
+.M-box span,.M-box1 span,.M-box2 span,.M-box3 span,.M-box4 span{
+	float: left;
+	margin:0 5px;
+	padding:5px 10px;
+  color: #999999;
+  font-size: 14px;
+}
+.M-box .active,.M-box1 .active,.M-box2 .active,.M-box3 .active,.M-box4 .active{
+	float: left;
+	margin:0 5px;
+	padding:5px 10px;
+  background: #1ba4ee;
+  color: #fff;
+  font-size: 14px;
+}
+.M-box a,.M-box1 a,.M-box2 a,.M-box3 a,.M-box4 a{
+	float: left;
+	margin:0 5px;
+	padding:5px 10px;
+  background: #fff;
+  color: #999999;
+  font-size: 14px;
+}
+.M-box a:hover,.M-box1 a:hover,.M-box2 a:hover,.M-box3 a:hover,.M-box4 a:hover{
+	color:#fff;
+  background: #1ba4ee;
+}
+.M-box .next,.M-box .prev,.M-box1 .next,.M-box1 .prev{
+	font-family: "Simsun";
+  font-size: 16px;
+  font-weight: bold;
+}
+.now,.count{
+	padding:0 5px;
+	color:#f00;
+}
+.eg img{
+	max-width: 800px;
+	min-height: 500px;
+}
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  -o-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+  opacity:0;
+  filter:alpha(opacity=0);
+} 
+.fadein{
+  opacity:100;
+  filter:alpha(opacity=100);
+}
+    
+

@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+*/
+body { line-height:1;position:absolute;top:0;left:0; right:0; right:0;bottom:0;height:100%;z-index:0;margin:0px auto;}
+
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{ padding:0px; margin:0px; font-size:12px; font-family:'yahei','Microsoft Yahei','微软雅黑',sans-serif; font-style: normal; font-weight: inherit; font-weight:inherit;}
+ul li,ol li{ list-style-type:none;}
+img{ border:none;}
+i,em{font-style: normal;}
+a,input{outline:none;blr:expression(this.onFocus=this.blur()); text-decoration:none;}
+input,button{outline: none;border:none;}
+input,textarea{
+    box-sizing: content-box;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #a0a0a0; opacity:1; 
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #a0a0a0;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #a0a0a0;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #a0a0a0;opacity:1;
+}
+.clear{clear: both;overflow: hidden;zoom: 1;}
+.arial{font-family: Arial, Helvetica, sans-serif;}
+.left{ float:left !important;}
+.right{ float:right !important;}
+.center{ text-align:center !important;}
+.cleafloat { clear: both; }
+.overflow{ overflow: hidden;}
+.bold{ font-weight:bold; font-weight:normal;}
+.titlelt{ text-align:left;}
+.titlert{ text-align:right;}
+.normal{ font-style:normal;}
+.te_indent{text-indent: 2em;}
+
+.w770{width: 770px;}
+.w670{width: 670px;}
+.w600{width: 600px;}
+.w680{width: 680px;}
+.w710{width: 710px;}
+.w300{width: 300px !important;}
+.margTop115{margin-top: 115px;}
+.margTop95{margin-top: 95px;}
+.margTop75{margin-top: 75px;}
+.margTop45{margin-top: 45px;}
+
+/*版心*/
+.wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.blank2{ height:2px; clear:both;_height:0px;}
+.blank4{ height:3px; clear:both;_height:0px;}
+.blank5{ height:5px; clear:both;_height:0px;}
+.blank8{ height:8px; clear:both;_height:0px;}
+.blank10{height:10px; _height:5px; clear:both;}
+.blank15{ height:15px; clear:both;_height:0px;}
+.blank20{height:20px; _height:10px; clear:both;}
+.blank25{height:25px; _height:25px; clear:both;}
+.blank30{height:30px; _height:20px; clear:both;}
+.blank40{height:40px; _height:40px; clear:both;}
+.blank50{height:50px; clear:both;}
+.blank60{height:50px; clear:both;}
+.blank80{height:80px; clear:both;}
+.blank100{height:100px; clear:both;}
+
+.font50{ font-size:50px; font-weight:inherit;}
+.font42{ font-size:42px; font-weight:inherit;}
+.font40{ font-size:40px; font-weight:inherit;}
+.font36{ font-size:36px; font-weight:inherit;}
+.font10{ font-size:10px; font-weight:inherit;}
+.font11{ font-size:11px; font-weight:inherit;}
+.font15{ font-size:15px; font-weight:inherit;}
+.font16{ font-size:16px !important; font-weight:inherit;}
+.font17{ font-size:17px; font-weight:inherit;}
+.font18{ font-size:18px !important; font-weight:inherit;}
+.font19{ font-size:19px; font-weight:inherit;}
+.font20{ font-size:20px !important; font-weight:inherit;}
+.font21{ font-size:21px; font-weight:inherit;}
+.font24{ font-size:24px; font-weight:inherit;}
+.font25{ font-size:25px; font-weight:inherit;}
+.font26{ font-size:26px; font-weight:inherit;}
+.font27{ font-size:27px; font-weight:inherit;}
+.font28{ font-size:28px !important; font-weight:inherit;}
+.font29{ font-size:29px; font-weight:inherit;}
+.font30{ font-size:30px !important; font-weight:inherit;}
+.font32{ font-size:32px; font-weight:inherit;}
+.font34{ font-size:34px; font-weight:inherit;}
+.font39{ font-size:39px; font-weight:inherit;}
+.font46{ font-size:46px; font-weight:inherit;}
+.font22{ font-size:22px; font-weight:inherit;}
+.font23{ font-size:23px; font-weight:inherit;}
+.font14{ font-size:14px !important;; font-weight:inherit;}
+.font13{ font-size:13px; font-weight:inherit;}
+.font12{ font-size:12px !important; font-weight:inherit;}
+
+
+/*颜色*/
+.bgf6f6f6{background-color:#f6f6f6;}
+.colfc4f4f{color: #fc4f4f;}
+
+/*错误提示*/
+.error{
+    color:#fda46d;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.w300{
+   width: 300px;
+}
+

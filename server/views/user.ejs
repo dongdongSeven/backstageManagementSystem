@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>销售-后台版</title>
+  <link rel="stylesheet" href="/css/public.css">
+  <link rel="stylesheet" href="/css/management_system.css">
+  <link rel="stylesheet" href="/css/pagination.css">
+  <script defer src="/js/public.js" charset="utf-8"></script>
+</head>
+<body>
+  <header>
+    <div class="left user-icon">
+      <input id="uploadHead" type="file"/>
+      <img src="" alt="">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="left user-name">
+      <p><span></span>信贷经理: <i class="userNameHook">网销售</i></p>
+      <p><span></span>地区： <i class="userCompanyHook">成都</i></p>
+    </div>
+    <div class="right">
+      <div class="search">
+        <input class="fuzzySearchHook" type="text" placeholder="请输入你要查询的条件">
+        <span class="fuzzySearchHook2"></span>
+      </div>
+      <p>
+        |<a class='logoutHook' href="javascript:void(0);">  退出登录</a>
+      </p>
+    </div>
+  </header>
+  <div class="content userHook">
+    <div class="top">
+      <p>
+        <span>全部数据:</span>
+        <select class="updateTimeHook">
+            <option value ="0">所有</option>
+            <option value ="1">当天</option>
+            <option value ="2">三天之内</option>
+            <option value="3">一周之内</option>
+        </select>
+      </p>
+      <p>
+        <span>客户所在地:</span>
+        <select class="adressHook">
+            <option value ="0">全部</option>
+            <option value ="1">成都</option>
+            <option value ="2">上海</option>
+            <option value="3">北京</option>
+            <option value="4">南京</option>
+            <option value="5">其他</option>
+        </select>
+      </p>
+      <p>
+        <span>退回原因:</span>
+        <select class="dIdHook">
+            <option value ="0">全部</option>
+            <option value ="1">停机</option>
+            <option value="2">空号</option>
+            <option value="3">号码少号</option>
+        </select>
+      </p>
+      <p>
+        <span>订单反馈:</span>
+        <select class="feedBackHook">
+            <option value ="0">全部</option>
+            <option value ="1">进行审批</option>
+            <option value="2">审批通过</option>
+            <option value="3">审批被拒</option>
+        </select>
+      </p>
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <thead>
+        <th>序号</th>
+        <th>提交时间</th>
+        <th>客户所在地</th>
+        <th>客户姓名</th>
+        <th>手机号码</th>
+        <th>退回原因</th>
+        <th>备注</th>
+        <th class="bgf6f6f6 colfc4f4f">订单反馈</th>
+        <th class="bgf6f6f6 colfc4f4f">反馈备注</th>
+        <th>修改时间</th>
+        <th>修 改</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- 翻页 -->
+    <div class="M-box2-wrapper">
+      <div class="M-box2"></div>
+    </div>
+    <!-- 翻页 end-->
+    <div class="function function2">
+      <span id="sp_add">增 加</span>
+    </div>
+  </div>
+</body>
+</html>

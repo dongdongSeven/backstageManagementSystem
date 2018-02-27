@@ -1,0 +1,5 @@
+//ES6转换参数文件，babel-preset-2015
+{
+  "presets":["es2015"],
+  "plugins":["transform-decorators-legacy"]
+}
